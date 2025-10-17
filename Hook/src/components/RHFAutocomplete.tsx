@@ -1,10 +1,10 @@
-import { Controller, type FieldValues, type Path, useFormContext } from 'react-hook-form';
+import { Controller,type FieldValues,type Path, useFormContext } from 'react-hook-form';
 
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
 import { Autocomplete, Box, Checkbox, TextField } from '@mui/material';
 
-import type { Option } from '../types/option';
+import {type Option } from '../types/option';
 
 type Props<T extends FieldValues> = {
 	name: Path<T>;

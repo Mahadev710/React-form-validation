@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "@types/axios": "^0.9.36",
-    "@types/lodash": "^4.17.20"
-  },
-  "dependencies": {
-    "@tanstack/react-query": "^5.90.3"
-  }
-}
